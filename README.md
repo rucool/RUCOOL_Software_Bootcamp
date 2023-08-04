@@ -57,7 +57,7 @@ Once that is done, you have successfully created an environment from scratch!
 
 # Instructions to install Bash Shell
 ## Windows:
-    1.	Download the Git for Windows [installer](https://gitforwindows.org/).
+    1.	Download the Git for Windows installer (https://gitforwindows.org/).
     2.	Run the installer and follow the steps below:
         1.	Click on "Next" four times (two times if you've previously installed Git). You don't need to change anything in the Information, location, components, and start menu screens.
         2.	From the dropdown menu, "Choosing the default editor used by Git", select "Use the Nano editor by default" (NOTE: you will need to scroll up to find it) and click on "Next".
@@ -80,9 +80,9 @@ Once that is done, you have successfully created an environment from scratch!
         4.	Quit command prompt by typing exit then pressing Enter
 
 ## MacOS:
-The default shell in some versions of macOS is Bash, and Bash is available in all versions, so no need to install anything. You access Bash from the Terminal (found in /Applications/Utilities). See the [Git installation video tutorial](https://carpentries.github.io/workshop-template/install_instructions/#shell-macos-video-tutorial) for an example on how to open the Terminal. You may want to keep Terminal in your dock for this workshop.
+The default shell in some versions of macOS is Bash, and Bash is available in all versions, so no need to install anything. You access Bash from the Terminal (found in /Applications/Utilities). See the Git installation video tutorial (https://carpentries.github.io/workshop-template/install_instructions/#shell-macos-video-tutorial) for an example on how to open the Terminal. You may want to keep Terminal in your dock for this workshop.
 To see if your default shell is Bash type echo $SHELL in Terminal and press the Return key. If the message printed does not end with '/bash' then your default is something else and you can run Bash by typing bash
-If you want to change your default shell, see this [Apple Support article](https://support.apple.com/en-au/HT208050) and follow the instructions on "How to change your default shell".
+If you want to change your default shell, see this Apple Support article (https://support.apple.com/en-au/HT208050) and follow the instructions on "How to change your default shell".
 
 ## Linux:
 
