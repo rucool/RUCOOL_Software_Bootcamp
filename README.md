@@ -55,7 +55,7 @@ Once that finishes installing, type or copy and paste the following as is:
     
 Once that is done, you have successfully created an environment from scratch!
 
-# Instructions to install Bash Shell
+# Instructions to install Bash Shell (from Software Carpentries)
 ## Windows:
     1.	Download the Git for Windows installer (https://gitforwindows.org/).
     2.	Run the installer and follow the steps below:
