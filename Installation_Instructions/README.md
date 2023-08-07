@@ -47,7 +47,7 @@ Once that finishes installing, type or copy and paste the following as is:
     
 Once that is done, you have successfully created an environment from scratch!
 
-# Instructions to install Bash Shell
+# Instructions to install Bash Shell (from Software Carpentries)
 ## Windows:
     1.	Download the Git for Windows installer (https://gitforwindows.org/).
     2.	Run the installer and follow the steps below:
@@ -75,9 +75,4 @@ Once that is done, you have successfully created an environment from scratch!
 The default shell in some versions of macOS is Bash, and Bash is available in all versions, so no need to install anything. You access Bash from the Terminal (found in /Applications/Utilities). See the Git installation video tutorial (https://carpentries.github.io/workshop-template/install_instructions/#shell-macos-video-tutorial) for an example on how to open the Terminal. You may want to keep Terminal in your dock for this workshop.
 To see if your default shell is Bash type echo $SHELL in Terminal and press the Return key. If the message printed does not end with '/bash' then your default is something else and you can run Bash by typing bash
 If you want to change your default shell, see this Apple Support article (https://support.apple.com/en-au/HT208050) and follow the instructions on "How to change your default shell".
-
-## Linux:
-
-The default shell is usually Bash and there is usually no need to install anything.
-To see if your default shell is Bash type echo $SHELL in a terminal and press the Enter key. If the message printed does not end with '/bash' then your default is something else and you can run Bash by typing bash.
 
