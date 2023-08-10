@@ -1,7 +1,7 @@
 # Instructions to install Miniconda
 Please go to: https://docs.conda.io/en/latest/miniconda.html
 
-Select/download the installer for your operation system that has Python 3.11. Follow the prompts for the installation.
+Select/download the installer for your operation system that has Python 3.11. Follow the prompts for the installation. (Note: be careful to select the correct operating system. For MacOS the "pkg" installers are easier).
 
 # Instructions to install Create Conda Environment
 
