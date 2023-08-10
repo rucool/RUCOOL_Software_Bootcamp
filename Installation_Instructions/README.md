@@ -1,7 +1,7 @@
 # Instructions to install Miniconda
 Please go to: https://docs.conda.io/en/latest/miniconda.html
 
-Select/download the installer for your operation system that has Python 3.11. Follow the prompts for the installation.
+Select/download the installer for your operation system that has Python 3.11. Follow the prompts for the installation. (Note: be careful to select the correct operating system. For MacOS the "pkg" installers are easier).
 
 # Instructions to install Create Conda Environment
 
@@ -26,6 +26,27 @@ To deactivate your environment:
 
 	      conda deactivate
 ## Mac:
+
+# After Installing miniconda let's setup your environment for the class
+
+Download the mac_swbc2023.yml file to a folder you're going to do your python work out of. I recommend you create an empty folder somewhere that you know how to find (don't include spaces in your folder name, it will make things easier down the road).
+
+Open a terminal window from the Applications/Utilities folder in finder (or search for 'terminal' in spotlight). Navigate to the folder were you saved your mac_swbc2023.yml file and type
+
+	conda env create -f mac_swbc2023.yml
+
+ If a prompty appears that says Proceed ([y/n])? Type y and hit enter. Once it successfully installs you can check by typing
+
+ 	conda env list
+
+ To activate your environment type
+
+  	conda activate swbc2023
+
+ To deactivate your environment:
+
+ 	conda deactivate
+   
 
 # If for whatever reason creating an environment from the yml does NOT work. Follow these steps:
 For windows, open the anaconda powershell prompt or for mac open your terminal and type the following as shown:
