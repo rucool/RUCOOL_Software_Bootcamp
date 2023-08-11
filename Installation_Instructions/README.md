@@ -31,7 +31,7 @@ To deactivate your environment:
 
 Download the mac_swbc2023.yml file to a folder you're going to do your python work out of. I recommend you create an empty folder somewhere that you know how to find (don't include spaces in your folder name, it will make things easier down the road).
 
-Open a terminal window from the Applications/Utilities folder in finder (or search for 'terminal' in spotlight). Navigate to the folder were you saved your mac_swbc2023.yml file and type
+Open a terminal window from the Applications/Utilities folder in finder (or search for 'terminal' in spotlight). Navigate to the folder were you saved your mac_swbc2023.yml file and type (This step may take a while, make sure you have a stable internet connection):
 
 	conda env create -f mac_swbc2023.yml
 
