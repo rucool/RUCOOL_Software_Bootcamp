@@ -1,0 +1,276 @@
+### Coding workshop 10-05-2020 ###
+
+
+git --version #make sure to but spaces in correct spot
+
+Common bash commands:
+
+# To make directory for worksop
+
+mkdir CODE_WORKSHOP
+
+# To print current working directory
+
+pwd
+
+# To list contents of a folder
+
+ls
+
+# To change directory
+# directory is ignored by git if it is empty
+
+cd /path/to/directory
+
+# To get out of a directory 
+
+cd /path/to/new/folder
+
+# this will bring you to the folder above 
+# (i.e. if you in path /workshop/plantets/.. you will be brought back to workshop
+# you can keep doing cd ../../../ until you get to your folder you want
+
+
+cd ../
+
+# To copy and paste in git, you must right click
+
+
+# Set global attributes in git
+
+
+git config --global user.name "Name"
+
+git config --global user.email "email associated with github account"
+
+git config --global core.autocrlf true #for windows
+
+git config --global core.autocrlf input #for linux/mac
+
+git config --global core.editor "vi -w" #or your editor of choice (i.e. nano)
+
+git config --global color.ui "auto"
+
+
+# To initialize root directory, this will have (master) once command is run
+# First navigate to folder you want
+
+git init
+
+# To list all files and hidden files
+
+ls -a
+
+
+# To give status of where you are in git
+# this will list what you have and have not committed to the github repository
+#in this case our repository is 'planets' 
+#because that's the directory we did 'git init'
+
+git status
+
+# to create file with touch or from the editor
+
+touch mars.txt
+
+vi mars.txt
+nano mars.txt
+
+# to add a file to "staging area" so that it can be committed
+# will change file color from red to green to 
+# notify that git is now tracking file
+
+git add mars.txt
+
+
+# To commit, make sure to put -m "message", if not it will open a text file, 
+# in this file you can write multiple lines, in the -m it should be a short version of what you did
+# the message is to be short and a hint to keep track of changes
+# it is a unique identifier for this commit
+
+git commit -m "start notes on mars"
+
+
+# To list all commits (changes) made to repository
+
+git log
+
+
+# To access a previous version
+
+git checkout HEAD mars.txt
+git checkout 8776 mars.txt
+
+
+# To compare the differences between a committed version and edited version
+# of the same file
+
+git diff
+
+
+# To add new changes to 'staging area' and then commit
+# needs to be done in this order to work
+# git add is specifying the file you want to stage so git knows what to commit
+
+git add mars.txt
+
+git commit -m "new message to tell what you did/added"
+
+
+# To add a whole directory + files within
+
+git add <directory name>
+
+# To add everything, may not want to do this - will add things that you did not explicitly specify. Option above is the safe way 
+
+git add -A
+
+# If you want to add a group of files using a wildcard "*"
+# (i.e. every file that ends in .txt)
+
+git add *.txt
+
+
+# To go back in time or back to an earlier stage of a repository
+
+git reset HEAD mars.txt #version 2.21
+
+git restore --staged mars.txt # version 2.27
+
+
+# To check versions before and after staging (i.e. after a git add)
+
+git diff --staged
+
+
+# if you want to rename a file (i.e. name mars to venus)
+
+mv mars.txt venus.txt
+
+# If you rename a file that was previously committed
+
+git mv mars.txt venus.txt
+
+# To copy a folder to the same folder or new folder
+
+cp mars.txt /path/to/new/location/
+
+
+# To compare the differences between versions, using version numbers
+
+#diff between current version and specified
+
+git diff 86776 mars.txt
+
+# diff between two specified commtits
+
+git diff 86776 492c62 mars.txt
+
+# diff between current version and one step before HEAD
+# can change the number to specify how many commits ago to compare to most recent (HEAD)
+
+git diff HEAD~1 mars.txt
+git diff HEAD~3 mars.txt
+
+
+# To reset to a specific version
+
+git reset 8776 mars.txt
+
+
+# To create a new branch
+
+git checkout -b <branch name>
+
+# To make git ignore big files such as data files
+#in .gitignore to specify files/folders you want to ignore
+# create .gitignore file
+# this file will not be visible unless you do ls -a
+# having the . before the file name hides that file
+
+vi .gitignore
+nano .gitignore
+
+# in that file add the files you want to ignore (i.e. results/ or *.dat)
+# then you will add and commit that file with git add and git commit
+
+git add .gitignore
+git commit .gitignore -m "add ignored files"
+
+# if you add a file/folder that is in the .gitignore, but you can override using the prompt
+
+git add -f a.dat
+
+# if you want to ignore everying in a directory (i.e. results)
+# add results/* to the .gitignore file
+# and to exclude a folder in results (i.e. results/data)
+# add !results/data to the .gitignore file
+#to ignore things in that data folder
+# add results/data/experiment/*.dat to the .gitignore file
+
+
+
+# To add/connect this repistory to gitHUB
+#keep in mind you can use git without gitHUB. but you NEED to use gitHUB WITH git
+# go on the gitHUB website and create a repository
+# then copy the link that is given
+
+
+git remote add origin https://github.com/juliaengdahl/noaa_workshop.git
+
+git remote -v
+
+git branch -M main
+
+# to get what you want from your local computer to gitHUB
+# need to use the right branch name (i.e. main or master)
+
+git push origin main
+
+# to get what you want from gitHUB onto your local computer
+
+git pull origin main
+
+
+# if you need to edit the URL
+
+git remote -v
+
+git remote set-url origin https://github.com/juliaengdahl/noaa_workshop.git
+
+
+
+# to add someone as a collaborater, navigate to :
+
+Settings -> Manage Access -> invite a collaborator -> enter user name
+
+# then you want to clone the repository
+#copy the repository link by selecting the green Code button and then copy that url
+# to name cloning repository, put the name you want following the link
+
+git clone https://github.com/juliaengdahl/noaa_workshop.git planets_github
+
+#make sure to change directory into the cloned directory
+
+git pull, make changes, git add, git commit, git push
+
+
+### ALWAYS DO A GIT PULL TO HAVE THE MOST UP TO DATE VERSION OF A REPOSITORY
+
+
+
+
+
+
+
+
+## References ##
+
+#git commit tips
+https://chris.beams.io/posts/git-commit/
+
+#git cheat sheet
+https://training.github.com/downloads/github-git-cheat-sheet/
+https://training.github.com/downloads/github-git-cheat-sheet.pdf
+
+
