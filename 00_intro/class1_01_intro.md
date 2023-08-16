@@ -3,7 +3,7 @@
 Welcome!
 
 ## who are we? (Travis, Alex, Julia)
-- physical oceanographers who research many different topics, including, ocean-cryosphere interactions, turbulent mixing, coastal processes and storms.
+
 
 ## why are we teaching this course?
 1. a course we wish we'd had at the start of grad school when learning to code
