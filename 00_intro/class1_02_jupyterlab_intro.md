@@ -2,17 +2,18 @@
 
 ---
 
-Share desktop with jupyter lab/anaconda. 
+Share desktop with jupyter lab/conda. 
 
 * we are mainly going to be working with python
 * there are a few tools that we will use to help us do this: 
-* `anaconda`: which helps us keep our code organized and ensures that things work well together
+* `conda`: which helps us keep our code organized and ensures that things work well together
 * and `Jupyterlab`, or jupyter notebooks, which are the interfaces we will use to write and run code.
 * just two of many choices, but particularly good ones
 
-## open jupyterlab via anaconda:
+## open jupyterlab via conda:
 1. let me share my screen. this might automatically go to full screen for you, so press escape to get out of that so you can follow along
-1. open anaconda navigator
+1. open a terminal or anaconda power-shell
+1. If you've properly setup your environment type conda activate swbc2023
 1. select `swbc` from the `applications on` drop down (hopefully people created this ...)
 	* the `swbc` is an environment that keeps all our code for this class together, and from messing up other code
 1. `launch` jupyterlab
@@ -22,7 +23,7 @@ Share desktop with jupyter lab/anaconda.
 
 ## overview of the jupyter lab environment.
 
-* Jupyterlab is a webbrower-based inteface for data analysis and all sorts of tools
+* Jupyterlab is a webbrowser-based inteface for data analysis and all sorts of tools
 * it looks like a website, but its just using your browser as a display, you could run this with no internet connection
 * JupyterLab enables you to work with documents, data files, and interactive tools like Jupyter notebooks, text editors, terminals, 
 * click through the file browser to get to the folder with our first section in it
@@ -136,8 +137,6 @@ what about the relative path from staff to steve?
 `../admin/steve`
 
 Why are we doing this? one basic reason is that I want to get you thinking about how a computer is structured so that we can write code that accesses data and files in different places around the computer
-
-**do the two quize questions as polls, need to show the figure on my comp**
 
 ### Working with Files and Directories
 
