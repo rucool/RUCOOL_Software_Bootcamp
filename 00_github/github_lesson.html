@@ -14740,7 +14740,7 @@ Note: Use the same email address that you used when you created your GitHub acco
 <p>Patrick wants to add another directory to the bikini_bottom repository called sandys_bubble and track its changes. He enters the following commands:</p>
 <blockquote><p><font color=green>$</font> <font color=black>cd ~/Desktop</font></p>
 <p><font color=green>$</font> <font color=black>cd bikini_bottom</font></p>
-<p><font color=green>$</font> <font color=black>gls -a</font></p>
+<p><font color=green>$</font> <font color=black>ls -a</font></p>
 <p><font color=green>$</font> <font color=black>mkdir sandys_bubble</font></p>
 <p><font color=green>$</font> <font color=black>cd sandys_bubble</font></p>
 <p><font color=green>$</font> <font color=black>git init</font></p>
@@ -14872,7 +14872,7 @@ Let's make a change to a file, commit to the local repository, and push it to th
 No commits yet<br>
 Untracked files:</p>
 <blockquote><p>(use git add <file>...” to include in what will be committed<br>
-Hibernation.txt</p>
+hibernation.txt</p>
 </blockquote>
 <p>Nothing added to commit but untracked files present (use “git add” to track)</p>
 </blockquote>
@@ -14895,7 +14895,7 @@ New file: hibernation.txt</p>
 </blockquote>
 <p>You will be prompted to enter your ssh key password</p>
 <p>Now, if we refresh our github page we will see the sandys_bubble directory and text file along with our message we added when we did the git commit. The directory was added because we had committed the sandys_bubble directory earlier in this lesson in the local repository, and now that it’s connected to remote, it and all of its contents will be displayed on github.</p>
-<p>Next, we can check the log, which captures and lists all of the commits made to a repositor</p>
+<p>Next, we can check the log, which captures and lists all of the commits made to a repository</p>
 <blockquote><p><font color=green>$</font> <font color=black>git log</font></p>
 </blockquote>
 <p>Lets add another line to our hibernation textfile. This time, when we use the vim command, it will not create a new file, but open the one we created before in the editor.</p>
@@ -14939,7 +14939,7 @@ New file: hibernation.txt</p>
 <p>Lets add and commit our changed file. Everything that is in the staging area will be committed when we git commit.</p>
 <blockquote><p><font color=green>$</font> <font color=black>git add hibernation.txt</font></p>
 <p><font color=green>$</font> <font color=black>git add water.txt</font></p>
-<p><font color=green>$</font> <font color=black>git git commit -m "modified hibernation and added water"</font></p>
+<p><font color=green>$</font> <font color=black>git commit -m "modified hibernation and added water"</font></p>
 </blockquote>
 <p>Will this change be added to the remote repository at this time?<br>
 No, because we have not pushed the change to the remote. Let's do that.</p>
