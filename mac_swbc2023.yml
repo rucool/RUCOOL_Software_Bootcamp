@@ -1,6 +1,5 @@
 name: swbc2023
 channels:
-  - anaconda
   - conda-forge
   - defaults
 dependencies:
