@@ -2,8 +2,8 @@
 
 Welcome!
 
-## who are we? (Travis, Jesse, Becca)
-- physical oceanographers who research many different topics, including, ocean-cryosphere interactions, turbulent mixing, coastal processes and storms.
+## who are we? (Travis, Alex)
+
 
 ## why are we teaching this course?
 1. a course we wish we'd had at the start of grad school when learning to code
@@ -31,13 +31,12 @@ Welcome!
 
 ## housekeeping: 
 1. Zoom Auto-mute: hold spacebar to quickly chime in
-1. Files will be distributed on Canvas
+1. Files will be distributed on Canvas and/or Github
 1. announcements on canvas with tips and tricks
 1. going to cover a lot of ground quickly. downside to this format is that you may not have as much time to let things sink in. To get the most out of the class, please review throughly before the start of class each day. Going to be hard to keep all this new info in your head.
 1. expectations: mostly we will work together on main content, examples, and 'homework' in class in large or small groups. my main expecations are that each of you participate activly, and come to class prepared to make the best of the short time we have. 
 1. at some point we will send a doodle pool to orgnaize a time for the hackhours in the fall, but for now focus on the core material 
-1. a common problem with these types of workshops is different systems running code differently, and hard to de-bug technical issues. Hopefully everyone tested their systems with the mac and windows videos I sent out.
-1. have a backup server that has our code workbooks on the web. very slow, hard to save your work, but its a backstop: in canvas announcements and past in zoom chat: link to backup: https://mybinder.org/v2/gh/nlbeaird/swbc2020/master?urlpath=lab
+1. a common problem with these types of workshops is different systems running code differently, and hard to de-bug technical issues. Hopefully everyone tested their systems with the instructions we sent out.
 1. going to RECORD the different modules when I am leading the code workbooks. These will be available for you to listen back to, but not publicly available
 1. lecture 'notes' (you will see) are available in interactive and static (PDF) formats so you can easily go back and reference
 1. **internet problems!** at some point someone is going to have slow internet, hopefully its not me! If you find you are unable to follow because of slow internet, a backup option is to watch the recordings asynchonously (but not my first choice)
@@ -49,7 +48,7 @@ Welcome!
 1. Volunteer TAs
 
 #### apart together
-we are all weirdly apart together. I would like to give this class a feel of in-person where we get to know eachother, and where you could lean to your neighbor to ask a question. We will see how that works. You can use the public chat and the private chat to direct questions, comments, at eachother or me! I will try to monitor it, maybe Sam and Jackie can also keep tabs. 
+We have a unique hybrid teaching enviornment. I would like to give this class a feel of in-person where we get to know eachother, and where you could lean to your neighbor to ask a question. We will see how that works. You can use the public chat and the private chat to direct questions, comments, at eachother or me! I will try to monitor it, maybe Sam and Jackie can also keep tabs. 
 
 ## everyone introduce themselves
 

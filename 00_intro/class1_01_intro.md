@@ -2,7 +2,7 @@
 
 Welcome!
 
-## who are we? (Travis, Alex, Julia)
+## who are we? (Travis, Alex)
 
 
 ## why are we teaching this course?
